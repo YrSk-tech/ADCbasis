@@ -1,4 +1,4 @@
-# ADCbasis
+# STM32 ADC App
 This application employs an Analog-to-Digital Converter (ADC) to periodically sample data from a potentiometer. Every 300 milliseconds, the ADC converts the analog voltage signal from the potentiometer into a digital value.
 
 To ensure data integrity, the application includes a timeout mechanism. If the ADC fails to complete a conversion within one second, it aborts the current attempt and initiates a new conversion.
